@@ -1,0 +1,9 @@
+# Build Output
+dist
+out
+.next
+.vscode
+.DS_Store
+
+# Dependencies
+node_modules/
