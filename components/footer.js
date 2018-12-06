@@ -6,7 +6,7 @@ export default () => (
                 Feel free to drop us a line about any bug report, feature request or just to say hello! Your feedback is what fuels Naao.
                 </p>
 
-            <a href="mailto:naaodelivery@gmail.com" className="bg-green hover:bg-green-dark text-white font-bold py-4 px-12 mb-12 rounded-full">
+            <a href="mailto:naaodelivery@gmail.com" className="bg-green hover:bg-green-dark text-white font-bold py-4 px-12 mb-12 rounded-full no-underline">
                 CONTACT
             </a>
         </div>
