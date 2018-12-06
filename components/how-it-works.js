@@ -13,7 +13,7 @@ export default class HowItWorks extends React.Component {
     };
 
     render() {
-        const commonBtnClasses = "w-1/2 px-4 py-4 text-white font-bold";
+        const commonBtnClasses = "w-1/2 px-4 py-4 text-white font-bold focus:outline-none";
 
         return (
             <div className="bg-grey-dark text-center font-sans pt-16">
@@ -24,7 +24,7 @@ export default class HowItWorks extends React.Component {
                         The following are what our platforms offers right now to make it happen.
                     </p>
 
-                    <div className="w-full md:w-2/5 inline-flex">
+                    <div className="w-full md:w-3/5 xl:w-2/5 inline-flex">
                         <button 
                             onClick={() => this.changeFeatureSet('traveler')}
                             className={`${commonBtnClasses} ${this.state.featureSet === 'traveler' ? 'bg-pink' : 'bg-grey-darkest'} rounded-l-full`}

@@ -2,7 +2,6 @@ import React from 'react';
 
 export default () => (
     <div className="h-screen flex flex-col font-sans">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
         <div className="h-2 flex flex-row">
             <div className="flex-1 bg-indigo"></div>
             <div className="flex-1 bg-green"></div>
@@ -28,9 +27,20 @@ export default () => (
                         className="store-link"
                         href="https://play.google.com/store/apps/details?id=com.bdgeeks.naao&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
                         <img
-                            alt="Get it on Google Play"
+                            alt="Get Naao on Google Play"
                             src="static/playstore-button.png"
-                            className="button-image playstore w-32" 
+                            className="button-image playstore h-8 lg:h-12 mr-2" 
+                        />
+                    </a>
+
+                    <a
+                        target="_blank"
+                        className="store-link"
+                        href="https://play.google.com/store/apps/details?id=com.bdgeeks.naao&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                        <img
+                            alt="Get Naao on App Store"
+                            src="static/appstore-button.svg"
+                            className="button-image appstore h-8 lg:h-12" 
                         />
                     </a>
                 </div>
