@@ -1,27 +1,22 @@
+import Head from 'next/head';
+
 import '../styles/main.css';
 import Hero from '../components/hero';
+import Footer from '../components/footer';
 import Features from '../components/features';
 import HowItWorks from '../components/how-it-works';
 
-// library.add(faCheckSquare, faScrewdriver, faUser)
-
 export default () => (
-    <React.Fragment>
+    <div>
+        <Head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta charSet="utf-8" />
+
+            <title>Naao App</title>
+        </Head>
         <Hero />
         <Features />
         <HowItWorks />
-
-        <div className="flex bg-grey-darkest text-center font-sans pt-16 pb-16">
-            <div className="w-2/3 ml-auto mr-auto">
-                <h2 className="text-4xl text-white pb-8">Get in touch</h2>
-                <p className="pb-12 text-grey leading-normal">
-                    Feel free to drop us a line about any bug report, feature request or just to say hello! Your feedback is what fuels Naao.
-                </p>
-
-                <a className="bg-green hover:bg-green-dark text-white font-bold py-4 px-12 mb-12 rounded-full">
-                    CONTACT
-                </a>
-            </div>
-        </div>
-    </React.Fragment>
+        <Footer />
+    </div>
 );

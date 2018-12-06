@@ -11,7 +11,7 @@ export default () => (
         </div>
 
         <div className="bg-grey-darkest flex flex-1 items-center">
-            <div className="w-2/5 pl-12">
+            <div className="w-4/5 mx-auto md:w-2/5 md:pl-12">
                 <h2 className="text-4xl">
                     <span className="text-green">SIMPLE. </span>
                     <span className="text-yellow">EASY. </span>
@@ -20,7 +20,7 @@ export default () => (
 
                 <p className="text-white text-lg pt-6 leading-normal">
                     Send anything to your friends/family/loved ones anywhere in the world through a person you can meet, trust and communicate with all through Naao platform.
-                    </p>
+                </p>
 
                 <div className="pt-12">
                     <a
@@ -30,13 +30,13 @@ export default () => (
                         <img
                             alt="Get it on Google Play"
                             src="static/playstore-button.png"
-                            className="button-image playstore w-32"
+                            className="button-image playstore w-32" 
                         />
                     </a>
                 </div>
             </div>
 
-            <div className="w-3/5 text-center">
+            <div className="hidden md:block md:w-3/5 text-center">
                 <img
                     src="/static/hero-image.png"
                     className="w-3/4"

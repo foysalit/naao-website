@@ -24,7 +24,7 @@ export default class HowItWorks extends React.Component {
                         The following are what our platforms offers right now to make it happen.
                     </p>
 
-                    <div className="w-2/5 inline-flex">
+                    <div className="w-full md:w-2/5 inline-flex">
                         <button 
                             onClick={() => this.changeFeatureSet('traveler')}
                             className={`${commonBtnClasses} ${this.state.featureSet === 'traveler' ? 'bg-pink' : 'bg-grey-darkest'} rounded-l-full`}
