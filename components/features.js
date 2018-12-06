@@ -17,19 +17,19 @@ export default () => (
 
         <div className="md:px-8 lg:px-16 xl:px-32">
             <div className="flex flex-wrap" style={{ "boxShadow": "10px 10px 0px rgba(0, 0, 0, 0.5)" }}>
-                <div className="w-1/2 md:w-1/4 bg-indigo py-8 md:py-16">
+                <div className="w-1/2 md:w-1/4 bg-indigo py-6 md:py-12 lg:py-20">
                     <FontAwesomeIcon icon="search" className="text-white text-2xl mt-8"/>
                     <h3 className="text-white text-lg pt-4 pb-8">Search Nearby</h3>
                 </div>
-                <div className="w-1/2 md:w-1/4 bg-pink py-8 md:py-16">
+                <div className="w-1/2 md:w-1/4 bg-pink py-6 md:py-12 lg:py-20">
                     <FontAwesomeIcon icon="handshake" className="text-white text-2xl mt-8" />
                     <h3 className="text-white text-lg pt-4 pb-8">Convenient Arrangements</h3>
                 </div>
-                <div className="w-1/2 md:w-1/4 bg-green py-8 md:py-16">
+                <div className="w-1/2 md:w-1/4 bg-green py-6 md:py-12 lg:py-20">
                     <FontAwesomeIcon icon="wifi" className="text-white text-2xl mt-8"/>
                     <h3 className="text-white text-lg pt-4 pb-8">Live Updates</h3>
                 </div>
-                <div className="w-1/2 md:w-1/4 bg-yellow py-8 md:py-16">
+                <div className="w-1/2 md:w-1/4 bg-yellow py-6 md:py-12 lg:py-20">
                     <FontAwesomeIcon icon="comments" className="text-white text-2xl mt-8"/>
                     <h3 className="text-white text-lg pt-4">Keep In Touch</h3>
                 </div>
