@@ -1,4 +1,5 @@
 import React from 'react';
+import { event } from '../lib/gtag';
 
 export default () => (
     <div className="h-screen flex flex-col font-sans">
@@ -25,6 +26,7 @@ export default () => (
                     <a
                         target="_blank"
                         className="store-link"
+                        onClick={() => event({action: 'google_play_button', category: 'engagement'})}
                         href="https://play.google.com/store/apps/details?id=com.bdgeeks.naao&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
                         <img
                             alt="Get Naao on Google Play"
@@ -36,6 +38,7 @@ export default () => (
                     <a
                         target="_blank"
                         className="store-link"
+                        onClick={() => event({action: 'app_store_button', category: 'engagement'})}
                         href="https://play.google.com/store/apps/details?id=com.bdgeeks.naao&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
                         <img
                             alt="Get Naao on App Store"

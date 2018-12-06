@@ -2,6 +2,7 @@ import React from 'react';
 
 import TravelerFeatures from './traveler-features';
 import SenderFeatures from './sender-features';
+import { event } from '../lib/gtag';
 
 export default class HowItWorks extends React.Component {
     state = {
@@ -9,6 +10,7 @@ export default class HowItWorks extends React.Component {
     };
 
     changeFeatureSet(featureSet) {
+        event({ action: 'feature_type_button', category: 'engagement', label: featureSet });
         this.setState({ featureSet });
     };
 
