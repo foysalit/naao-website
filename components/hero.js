@@ -25,6 +25,7 @@ export default () => (
                 <div className="pt-12">
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         className="store-link"
                         onClick={() => event({action: 'google_play_button', category: 'engagement'})}
                         href="https://play.google.com/store/apps/details?id=com.bdgeeks.naao&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
@@ -37,6 +38,7 @@ export default () => (
 
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         className="store-link"
                         onClick={() => event({action: 'app_store_button', category: 'engagement'})}
                         href="https://play.google.com/store/apps/details?id=com.bdgeeks.naao&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
