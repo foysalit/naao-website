@@ -12,6 +12,20 @@ export default () => (
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta charSet="utf-8" />
 
+            <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+            />
+            <script
+                dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', '${process.env.GA_TRACKING_ID}');
+                `}}
+            />
+
             <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" /> 
             <title>Naao App</title>
         </Head>
