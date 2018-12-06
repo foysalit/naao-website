@@ -15,7 +15,7 @@ export default () => (
             </p>
         </div>
 
-        <div className="md:px-8 lg:32">
+        <div className="md:px-8 lg:16 xl:32">
             <div className="flex flex-wrap" style={{ "boxShadow": "10px 10px 0px rgba(0, 0, 0, 0.5)" }}>
                 <div className="w-1/2 md:w-1/4 bg-indigo py-8 md:py-16">
                     <FontAwesomeIcon icon="search" className="text-white text-2xl mt-8"/>
