@@ -27,6 +27,7 @@ export default () => (
             />
 
             <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" /> 
+            <link rel="icon" type="image/x-icon" href="/static/favicon.png" />
             <title>Naao App</title>
         </Head>
         <Hero />

@@ -10,8 +10,18 @@ export default () => (
             <div className="flex-1 bg-pink"></div>
         </div>
 
+        <div className="bg-grey-darkest pt-12">
+            <div className="w-4/5 mx-auto h-16 md:w-2/5 md:ml-12">
+                <img 
+                    src="/static/naao-logo.png"
+                    className="h-4 md:h-6" 
+                    alt="Naao Logo"
+                />
+            </div>
+        </div>
+
         <div className="bg-grey-darkest flex flex-1 items-center">
-            <div className="w-4/5 mx-auto md:w-2/5 md:pl-12">
+            <div className="w-4/5 mx-auto md:w-2/5 md:ml-12">
                 <h2 className="text-4xl">
                     <span className="text-green">SIMPLE. </span>
                     <span className="text-yellow">EASY. </span>
