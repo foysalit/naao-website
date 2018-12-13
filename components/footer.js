@@ -6,12 +6,31 @@ export default () => (
                 Feel free to drop us a line about any bug report, feature request or just to say hello! Your feedback is what fuels Naao.
                 </p>
 
-            <a
-                href="mailto:naao.delivery@gmail.com" 
-                onClick={() => event({ action: 'contact_button', category: 'engagement' })}
-                className="bg-green hover:bg-green-dark text-white font-bold py-4 px-12 mb-12 rounded-full no-underline">
-                CONTACT
-            </a>
+            <div>
+                <a
+                    href="mailto:naao.delivery@gmail.com" 
+                    onClick={() => event({ action: 'contact_button', category: 'engagement' })}
+                    className="bg-green hover:bg-green-dark text-white font-bold py-4 px-12 mb-12 rounded-full no-underline">
+                    CONTACT
+                </a>
+            </div>
+
+            <div className="mt-12">
+                <a 
+                    target="blank"
+                    className="text-white mx-2"
+                    href="https://termsfeed.com/privacy-policy/85f17788eb4efbc36e577aa5c6dfc4c8"
+                >
+                    Privacy Policy
+                </a>
+                <a 
+                    target="blank"
+                    className="text-white mx-2"
+                    href="https://termsfeed.com/terms-conditions/9540a2e90d58c68ede2436e77c7d3734"
+                >
+                    Terms & Conditions
+                </a>
+            </div>
         </div>
     </div>
 );
