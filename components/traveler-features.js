@@ -29,8 +29,8 @@ export default () => (
                 <div className="text-right w-5/6">
                     <h2 className="text-white text-bold text-2xl pb-6">Negotiate Offers</h2>
                     <p className="text-grey leading-normal">
-                        If you have some extra space in your luggage when going somewhere, post your trip on Naao to make some extra $.
-                        People in your city will be able to see your trip and make an offer for delivering their parcels.
+                        Once you start receiving offers/requests to deliver packages, you have the option to accept/reject or make a counter offer if you don't agree with the amount offerred.
+                        Naao makes it extremely easy to communicate with the sender through Naao Chat if you need any kind of clarification from the sender before you can make a decision.
                     </p>
                 </div>
                 <div className="w-1/6">
@@ -47,8 +47,10 @@ export default () => (
                 <div className="text-left w-5/6">
                     <h2 className="text-white text-bold text-2xl pb-6">Schedule & Deliver</h2>
                     <p className="text-grey leading-normal">
-                        If you have some extra space in your luggage when going somewhere, post your trip on Naao to make some extra $.
-                        People in your city will be able to see your trip and make an offer for delivering their parcels.
+                        Please make sure to workout the finer details between you and the sender such as when and how to pick up and deliver the parcel.
+                        We recommend providing flexibility from both side when scheduling those.
+                        <br/>
+                        After delivering the parcel, make sure to mark it as delivered on Naao to let the sender know and write a review stating your whole experience with the process and the sender.
                     </p>
                 </div>
             </div>

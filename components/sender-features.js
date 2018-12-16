@@ -11,8 +11,8 @@ export default () => (
                 <div className="text-left w-5/6">
                     <h2 className="text-white text-bold text-2xl pb-6">Find Traveler</h2>
                     <p className="text-grey leading-normal">
-                        If you have some extra space in your luggage when going somewhere, post your trip on Naao to make some extra $.
-                        People in your city will be able to see your trip and make an offer for delivering their parcels.
+                        Naao helps you find the perfect traveler to deliver your package.
+                        You can search travelers from a city to another city and filter by the weight/size of parcels they are willing to deliver.
                     </p>
                 </div>
             </div>
@@ -29,8 +29,8 @@ export default () => (
                 <div className="text-right w-5/6">
                     <h2 className="text-white text-bold text-2xl pb-6">Make offers</h2>
                     <p className="text-grey leading-normal">
-                        If you have some extra space in your luggage when going somewhere, post your trip on Naao to make some extra $.
-                        People in your city will be able to see your trip and make an offer for delivering their parcels.
+                        When you find suitable travelers, make an offer requesting them to delivery your parcel by providing your parcel details and the amount you're willing to pay.
+                        You can make offers to multiple travelers to ensure more options for your parcel.
                     </p>
                 </div>
                 <div className="w-1/6">
@@ -47,8 +47,10 @@ export default () => (
                 <div className="text-left w-5/6">
                     <h2 className="text-white text-bold text-2xl pb-6">Workout an arrangement</h2>
                     <p className="text-grey leading-normal">
-                        If you have some extra space in your luggage when going somewhere, post your trip on Naao to make some extra $.
-                        People in your city will be able to see your trip and make an offer for delivering their parcels.
+                        Once the offer is made, you can chat with the traveler through Naao Chat and work out th finer details of the arragement such as:
+                        where to drop off the parcel, where to pick it up from, how the transaction will be done etc.
+                        <br/>
+                        Once the parcel is delivered safely, you or the traveler can mark it delivered and provide a review stating your whole experience.
                     </p>
                 </div>
             </div>
