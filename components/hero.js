@@ -51,7 +51,7 @@ export default () => (
                         rel="noreferrer"
                         className="store-link"
                         onClick={() => event({action: 'app_store_button', category: 'engagement'})}
-                        href="https://play.google.com/store/apps/details?id=com.bdgeeks.naao">
+                        href="https://itunes.apple.com/app/id1446178590">
                         <img
                             alt="Get Naao on App Store"
                             src="static/appstore-button.svg"
