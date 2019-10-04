@@ -4,7 +4,7 @@ export default () => (
             <h2 className="text-4xl text-white pb-8">Get in touch</h2>
             <p className="pb-12 text-grey leading-normal">
                 Feel free to drop us a line about any bug report, feature request or just to say hello! Your feedback is what fuels Naao.
-                </p>
+            </p>
 
             <div>
                 <a
@@ -15,7 +15,10 @@ export default () => (
                 </a>
             </div>
 
-            <div className="mt-12">
+            <p className="mt-12 text-grey">
+                Made with love ❤️ by <a className="text-white" href="https://twitter.com/foysalit">Foysal</a> and <a className="text-white" href="https://twitter.com/suborna00">Suborna</a>
+            </p>
+            <div className="mt-4">
                 <a 
                     target="blank"
                     className="text-white mx-2"
